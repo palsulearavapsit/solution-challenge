@@ -1,19 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "SevaSetu.html",      "use": "@vercel/static" },
-    { "src": "seva-app.jsx",       "use": "@vercel/static" },
-    { "src": "seva-data.jsx",      "use": "@vercel/static" },
-    { "src": "seva-icons.jsx",     "use": "@vercel/static" },
-    { "src": "seva-map.jsx",       "use": "@vercel/static" },
-    { "src": "seva-modals.jsx",    "use": "@vercel/static" },
-    { "src": "seva-needs.jsx",     "use": "@vercel/static" },
-    { "src": "seva-views.jsx",     "use": "@vercel/static" },
-    { "src": "seva-volunteers.jsx","use": "@vercel/static" },
-    { "src": "tweaks-panel.jsx",   "use": "@vercel/static" }
-  ],
   "routes": [
-    { "src": "/",                  "dest": "/SevaSetu.html" },
-    { "src": "/(.*\\.jsx)",        "dest": "/$1" }
+    { "src": "/", "dest": "/SevaSetu.html" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }

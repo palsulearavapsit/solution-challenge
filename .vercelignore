@@ -1,0 +1,14 @@
+# Python / Streamlit — deploy these on Streamlit Cloud, not Vercel
+app.py
+pages/
+src/
+tests/
+requirements.txt
+.env.example
+.env
+.streamlit/
+data/
+streamlit.log
+__pycache__/
+*.pyc
+*.pyo
